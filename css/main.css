@@ -341,7 +341,7 @@ img {
 }
 
 .accessories-item-first {
-  background-image: url(../../img/diamond-weekend-1.jpg);
+  background-image: url(../img/diamond-weekend-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 10px;
@@ -361,7 +361,7 @@ img {
 }
 
 .accessories-item-second {
-  background-image: url(../../img/diamond-weekend-2.jpg);
+  background-image: url(../img/diamond-weekend-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -720,14 +720,14 @@ img {
 }
 
 .swiper-button-next {
-  background-image: url(../../img/slider-next.png);
+  background-image: url(../img/slider-next.png);
   background-repeat: no-repeat;
   background-position: center;
   transition: background-image 250ms linear;
 }
 
 .swiper-button-next:hover, .swiper-button-next:focus {
-  background-image: url(../../img/slider-next-hover.png);
+  background-image: url(../img/slider-next-hover.png);
 }
 
 @media screen and (min-width: 768px) {
@@ -749,14 +749,14 @@ img {
 .swiper-button-prev {
   right: 30px;
   left: auto;
-  background-image: url(./../img/slider-prev.png);
+  background-image: url(../img/slider-prev.png);
   background-repeat: no-repeat;
   background-position: center;
   transition: background-image 250ms linear;
 }
 
 .swiper-button-prev:hover, .swiper-button-prev:focus {
-  background-image: url(./../img/slider-prev-hover.png);
+  background-image: url(../img/slider-prev-hover.png);
 }
 
 @media screen and (min-width: 768px) {

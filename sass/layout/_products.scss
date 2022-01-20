@@ -159,13 +159,13 @@
     height: 17px;
 }
 .swiper-button-next {
-    background-image: url(../../img/slider-next.png);
+    background-image: url(../img/slider-next.png);
     background-repeat: no-repeat;
     background-position: center;
     transition: background-image 250ms linear;
     &:hover,
     &:focus {
-        background-image: url(../../img/slider-next-hover.png);
+        background-image: url(../img/slider-next-hover.png);
     }
     @media screen and (min-width: 768px) {
         right: 15px;
@@ -181,13 +181,13 @@
 .swiper-button-prev {
     right: 30px;
     left: auto;
-    background-image: url(./../img/slider-prev.png);
+    background-image: url(../img/slider-prev.png);
     background-repeat: no-repeat;
     background-position: center;
     transition: background-image 250ms linear;
     &:hover,
     &:focus {
-        background-image: url(./../img/slider-prev-hover.png);
+        background-image: url(../img/slider-prev-hover.png);
     }
     @media screen and (min-width: 768px) {
         right: 55px;
