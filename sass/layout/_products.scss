@@ -1,0 +1,217 @@
+.products {
+    margin-bottom: 240px;
+}
+
+.products-title {
+    font-size: 24px;
+    line-height: 1.67;
+}
+
+.product-image-wrapper {
+    @media screen and (max-width: 480px) {
+        margin: 0 auto;
+        max-width: 304px;
+        display: block;
+        position: relative;
+    }
+}
+
+.products-item-img {
+    margin-bottom: 10px;
+
+    @media screen and (min-width: 480px) {
+        margin-bottom: 15px;
+    }
+    @media screen and (min-width: 768px) {
+        margin-bottom: 20px;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 28px;
+    }
+}
+
+.products-item-label {
+    position: absolute;
+    top: 21px;
+    right: 19px;
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.38;
+    text-transform: uppercase;
+}
+
+.products-item-article {
+    margin-bottom: 14px;
+    padding-left: 14px;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 1.2;
+}
+
+.products-item-title {
+    margin-bottom: 5px;
+    padding-left: 14px;
+    font-size: 14px;
+    line-height: 1.14;
+    @media screen and (min-width: 480px) {
+        margin-bottom: 10px;
+    }
+    @media screen and (min-width: 768px) {
+        margin-bottom: 15px;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 22px;
+    }
+}
+
+.product-item-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-item-title-color {
+    margin-bottom: 5px;
+    font-size: 10px;
+    line-height: 1.2;
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 13px;
+    }
+}
+
+.product-color-list {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    @media screen and (min-width: 768px) {
+        margin-bottom: 15px;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 22px;
+    }
+}
+.product-color-item {
+    position: relative;
+}
+
+.product-color-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.product-color-item-gold {
+    background-color: #d2a736;
+}
+.product-color-item-grey {
+    background-color: #e8e8e8;
+}
+.product-color-item-pink {
+    background-color: #efc7bb;
+}
+.product-price-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-form-price {
+    text-align: center;
+    width: 111px;
+}
+.product-color-item-link {
+    display: block;
+    width: 16px;
+    height: 16px;
+    &::before {
+        position: absolute;
+        display: block;
+        top: 50%;
+        left: 50%;
+        content: '';
+        width: 22px;
+        height: 22px;
+        transform: translate(-50%, -50%);
+        border-color: transparent;
+        transition: border-color 250ms linear;
+    }
+    &:hover:before,
+    &:focus:before {
+        border: 1px solid black;
+    }
+}
+
+.navigation {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    @media screen and (min-width: 768px) {
+        margin-bottom: 15px;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 29px;
+    }
+}
+
+.swiper-button {
+    width: 9px;
+    height: 17px;
+}
+.swiper-button-next {
+    background-image: url(../../img/slider-next.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 250ms linear;
+    &:hover,
+    &:focus {
+        background-image: url(../../img/slider-next-hover.png);
+    }
+    @media screen and (min-width: 768px) {
+        right: 15px;
+    }
+    @media screen and (min-width: 1200px) {
+        right: 38px;
+    }
+}
+.swiper-button-next::after {
+    content: '';
+}
+
+.swiper-button-prev {
+    right: 30px;
+    left: auto;
+    background-image: url(../../img/slider-prev.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 250ms linear;
+    &:hover,
+    &:focus {
+        background-image: url(../../img/slider-prev-hover.png);
+    }
+    @media screen and (min-width: 768px) {
+        right: 55px;
+    }
+    @media screen and (min-width: 1200px) {
+        right: 92px;
+    }
+}
+.swiper-button-prev::after {
+    content: '';
+}
+
+.swiper-wrapper {
+    @media screen and (min-width: 480px) {
+        margin-bottom: 20px;
+    }
+    @media screen and (min-width: 768px) {
+        margin-bottom: 30px;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 55px;
+    }
+}
+
+.navigation-bottom {
+    height: 40px;
+}

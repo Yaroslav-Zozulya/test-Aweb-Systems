@@ -1,0 +1,118 @@
+.accessories {
+    //
+    padding-top: 10px;
+
+    padding-bottom: 30px;
+    @media screen and (min-width: 480px) {
+        padding-bottom: 30px;
+    }
+    @media screen and (min-width: 768px) {
+        padding-top: 33px;
+    }
+    @media screen and (min-width: 1200px) {
+        padding-bottom: 60px;
+    }
+}
+
+.accessories-list {
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
+}
+
+.accessories-item {
+    padding: 10px;
+
+    @media screen and (min-width: 1200px) {
+        padding: 49px 129px 0px 69px;
+        height: 393px;
+    }
+
+    background-color: #000;
+}
+
+.accessories-item:not(:last-child) {
+    @media screen and (min-width: 768px) {
+        margin-right: 20px;
+    }
+    @media screen and (min-width: 1200xp) {
+        margin-right: 40px;
+    }
+}
+
+.accessories-item-first {
+    background-image: url(../../img/diamond-weekend-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    @media screen and (min-width: 768px) {
+        margin-bottom: 0;
+    }
+    @media screen and (min-width: 1200px) {
+        -webkit-box-shadow: 0px -22px 0 0px #eeeeee;
+        box-shadow: 0px -22px 0px 0px #eeeeee;
+    }
+}
+
+.accessories-item-second {
+    background-image: url(../../img/diamond-weekend-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    @media screen and (min-width: 1200px) {
+        margin-top: 10px;
+    }
+    @media screen and (min-width: 1200px) {
+        -webkit-box-shadow: 10px 10px 0 10px #eeeeee;
+        box-shadow: 11px -32px 0px 0px #eeeeee;
+    }
+}
+
+.accessories-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 1.35;
+    color: var(--secondary-text-color);
+    text-transform: uppercase;
+    @media screen and (min-width: 1200px) {
+        width: 456px;
+    }
+}
+
+.accessories-title-first {
+    margin-bottom: 10px;
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 22px;
+    }
+}
+
+.accessories-title-second {
+    margin-bottom: 10px;
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 41px;
+    }
+}
+
+.accessories-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.38;
+    color: var(--secondary-text-color);
+    @media screen and (min-width: 1200px) {
+        width: 316px;
+    }
+}
+
+.accessories-text-first {
+    margin-bottom: 15px;
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 32px;
+    }
+}
+.accessories-text-second {
+    margin-bottom: 15px;
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 71px;
+    }
+}

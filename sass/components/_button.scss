@@ -1,0 +1,59 @@
+.order-service-button {
+    display: block;
+    min-width: 200px;
+    min-height: 50px;
+    padding: 10px 32px;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--first-background-color);
+    background-color: var(--links-hover-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms var(--transition-timing);
+
+    &:hover,
+    &:focus {
+        background-color: var(--button-hover-color);
+    }
+}
+
+.btn {
+    padding: 8px 28px;
+    min-width: 111px;
+    min-height: 30px;
+    border: 0;
+    display: block;
+    font-size: 12px;
+    line-height: 1.67;
+    text-transform: uppercase;
+    background-color: var(--button-color);
+    transition: background-color 250ms linear, box-shadow 250ms linear;
+    &:hover,
+    &:focus {
+        background-color: var(--button-hover-color);
+    }
+}
+
+.about-btn {
+    padding: 8px 35px;
+}
+
+.product-form-buy-btn {
+    min-height: 49px;
+    border-left: 1px solid #000;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    color: var(--button-color);
+    background-color: transparent;
+    &:hover,
+    &:focus {
+        background: #000000;
+        box-shadow: 0px 4px 4px rgba(155, 14, 222, 0.25);
+    }
+}
